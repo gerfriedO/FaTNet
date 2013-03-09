@@ -1,0 +1,17 @@
+\section{Risikomanagement}
+\label{Risikomanagement}
+\subsection{Mögliche Schwierigkeiten}
+\subsubsection{Ausfall von (bereits verbauten) Systemkomponenten}
+Sollten Teile der Bestellung bei Lieferung beschädigt sein, oder im Laufe des Einbaus oder der Arbeit mit ihnen funktionsunfähig werden, so kann dies zu einiger Verzögerung im Projektablauf führen. Die Komponenten müssen ggf. wieder ausgebaut werden, sofern möglich repariert und ansonsten neubestellt werden. Je nachdem welches Teil ausfällt, kann nicht nur der endgültige Aufbau der Hardware dadurch verzögert werden, sondern auch das Testen bestimmter Funktionalitäten.
+
+\subsubsection{Kinematik des Manipulators bei Stromausfall}
+Bisher ist noch ungeklärt, wie sich der Manipulator bei Stromausfall der Aktuatoren verhält. Möglicherweise bleiben die Gelenke steif, eventuell sinkt der Arm aber auch in sich zusammen. Sollte letzteres eintreffen, müssen geeignete Gegenmaßnahmen gefunden und angewendet werden, damit eine eingeschränkte Bewegungsfähigkeit erhalten bleibt (siehe Kaptiel \ref{kap:Manipulator}: \nameref{kap:Manipulator}).
+
+\subsubsection{Umgang mit Komplikationen}
+Sollte aus oben genannten Gründen, oder anderen unvorhersehbaren Komplikationen eine Verzögerung in der  Projektdurchführung resultieren, so können folgende Maßnahmen ergriffen werden, um einen erfolgreichen Projektabschluss zu gewährleisten.
+
+\subsubsection{Monitor wird zum Single Point of Failure}
+Im Projektentwurf ist vorgesehen, dass bei Ausfall des Voters eines der anderen STMs dessen Rolle übernimmt. Die diesbezügliche Fehlertoleranz könnte im Zweifelsfall aufgegeben werden und der Voter stattdessen als Single Point of Failure behandelt werden.
+
+\subsubsection{CAN-Bus wird zum Single Point of Failure}
+Es ist vorgesehen den CAN-Bus redundant anzulegen. Sollte es dabei jedoch zu Problemen kommen, kann dieser zum Single Point of Failure vereinfacht werden.

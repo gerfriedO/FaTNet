@@ -1,0 +1,42 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\contentsline {section}{\numberline {2}Laufzeit und Organisation}{1}{section.2}
+\contentsline {section}{\numberline {3}Projektziel}{1}{section.3}
+\contentsline {section}{\numberline {4}Mission}{2}{section.4}
+\contentsline {section}{\numberline {5}Systementwurf}{2}{section.5}
+\contentsline {subsection}{\numberline {5.1}Mechanik}{3}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Manipulator}{4}{subsubsection.5.1.1}
+\contentsline {subsection}{\numberline {5.2}Systementwurf Elektronik}{5}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Elektrische Leistung}{5}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Energiespeicher}{5}{subsubsection.5.2.2}
+\contentsline {subsection}{\numberline {5.3}Software}{6}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Grundstruktur}{6}{subsubsection.5.3.1}
+\contentsline {paragraph}{CAN-Bus und Protokoll}{6}{section*.2}
+\contentsline {paragraph}{Heartbeat}{6}{section*.3}
+\contentsline {paragraph}{SysTick}{6}{section*.4}
+\contentsline {paragraph}{Kamera/Bildverarbeitung}{6}{section*.5}
+\contentsline {paragraph}{Abstandssensoren}{7}{section*.6}
+\contentsline {paragraph}{Antrieb/ Regelung}{7}{section*.7}
+\contentsline {paragraph}{Roboterarm}{7}{section*.8}
+\contentsline {section}{\numberline {6}Fehlerverhalten}{9}{section.6}
+\contentsline {paragraph}{\textbf {Fehler 1: Ein STM f\IeC {\"a}llt aus (siehe Abb. 8)}}{11}{section*.9}
+\contentsline {paragraph}{\textbf {Fehler 2: Motor am Manipulator f\IeC {\"a}llt aus (siehe Abb. 9)}}{11}{section*.10}
+\contentsline {paragraph}{\textbf {Fehler 3: Monitor f\IeC {\"a}llt aus (siehe Abb. 8)}}{12}{section*.11}
+\contentsline {paragraph}{\textbf {Fehler 4: Kamera f\IeC {\"a}llt aus (siehe Abb. 10)}}{12}{section*.12}
+\contentsline {paragraph}{\textbf {Fehler 5: CAN-Bus f\IeC {\"a}llt aus (siehe Abb. 11)}}{12}{section*.13}
+\contentsline {paragraph}{\textbf {Fehler 6: Abstandssensor f\IeC {\"a}llt aus (siehe Abb. 12)}}{13}{section*.14}
+\contentsline {section}{\numberline {7}Testl\IeC {\"a}ufe}{13}{section.7}
+\contentsline {section}{\numberline {8}Arbeitspakete und Zeitplanung}{14}{section.8}
+\contentsline {subsection}{\numberline {8.1}Hardware}{14}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Software}{14}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Milestones}{15}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {8.3.1}Hardware}{15}{subsubsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.2}Software}{15}{subsubsection.8.3.2}
+\contentsline {section}{\numberline {9}Risikomanagement}{15}{section.9}
+\contentsline {subsection}{\numberline {9.1}M\IeC {\"o}gliche Schwierigkeiten}{15}{subsection.9.1}
+\contentsline {subsubsection}{\numberline {9.1.1}Ausfall von (bereits verbauten) Systemkomponenten}{15}{subsubsection.9.1.1}
+\contentsline {subsubsection}{\numberline {9.1.2}Kinematik des Manipulators bei Stromausfall}{15}{subsubsection.9.1.2}
+\contentsline {subsubsection}{\numberline {9.1.3}Umgang mit Komplikationen}{16}{subsubsection.9.1.3}
+\contentsline {subsubsection}{\numberline {9.1.4}Monitor wird zum Single Point of Failure}{16}{subsubsection.9.1.4}
+\contentsline {subsubsection}{\numberline {9.1.5}CAN-Bus wird zum Single Point of Failure}{16}{subsubsection.9.1.5}
+\contentsline {section}{\numberline {10}Anhang}{16}{section.10}

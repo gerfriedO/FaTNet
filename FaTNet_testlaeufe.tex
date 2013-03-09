@@ -1,0 +1,33 @@
+\section{Testläufe}
+\label{Testlaeufe}
+Die folgenden Testfälle müssen durchgeführt werden um die Fehlertoleranz des Systems vollständig aufzuzeigen.
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|p{9cm}|p{5.5cm}|}
+\hline 
+Testlauf & Szenario (Ausfall) & Zielerfüllung\\ 
+\hline
+1 & Fehlerfreier Fall & vollständig\\ 
+\hline 
+2 & 1 Can + 1 Abstandssensor & vollständig\\ 
+\hline 
+3 & 1 Can + 1 Abstandssensor + 1 Aktuator & vollständig durch Kompensation\\ 
+\hline 
+4 & 1 Can + 1 Abstandssensor + 1 Aktuator + 1 Kamera & vollständig durch Kompensation\\ 
+\hline 
+5 & 1 Can + 1 Abstandssensor + 1 Aktuator(1) + STM(1) + 1 Kamera (2 oder 3) & vollständig durch Kompensation\\ 
+\hline 
+6 & 1 Can + 1 Abstandssensor + 1 Aktuator(1) + STM(1) + 1 Kamera (2 oder 3) + Voter & vollständig durch Kompensation\\ 
+\hline 
+7 & 1 Can + 1 Abstandssensor + 2 Aktuator(1 und 2) + 2 STM(1 und 2) + Kamera (2) + Voter & teilweise durch Kompensation\\ 
+\hline 
+8 & 1 Can + 1 Abstandssensor + 2 Aktuator(1 und 2) + 2 STM(1 und 2) + Kamera (2) + Voter + [Kamera(3) oder Aktuator(3) oder STM(3) oder CAN(2)] & Fehler\\ 
+\hline 
+\hline 
+\end{tabular} 
+\caption{Durchzuführende Testfälle}
+\label{tab:testlaeufe}
+\end{table}
+Durch diese Testläufe wird die größtmögliche Verzahnung der verschiedenen Fehler erreicht, so dass der Roboter noch funktioniert. Die Fehler sind dabei so gewählt, dass erst zum Schluss kritische Zustände erreicht werden und im Laufe der Tests sichtbar wird, dass das System an Leistung verliert (Prinzip der Graceful degredation).\\
+Die Tabelle 2 zeigt in Kombination mit Abbildung 7 das alle Funktionalit"aten bez"uglich der Redundanz des Systems aufgezeigt werden.\\
+Die triviale Funktion des Systems wird im Fehlerfreien Fall gezeigt.

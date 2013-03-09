@@ -1,0 +1,64 @@
+\documentclass{scrartcl}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{soulutf8}
+\usepackage{hyperref}
+\usepackage{rotating}
+\usepackage{geometry}
+\usepackage{float}
+
+
+\begin{document}
+
+\begin{titlepage}
+\thispagestyle{empty}
+\titlehead{\centering Designdokument}
+\title{Reliable Computing on a \textbf{Fa}ult \textbf{T}olerant \textbf{Net}work in Space (FaTNet)\bigskip}
+\subtitle{\bigskip $\;$ \bigskip Studentisches Projekt am deutschen Zentrum für Luft- und Raumfahrt e.V. (DLR)}
+\bigskip
+
+\author{Wintersemester 2012/2013 bis Sommersemester 2013\bigskip}
+\date{\bigskip}
+\publishers{Bearbeitet von:\\Andre Pols, Christian Uphaus, David Weigel, Esther Funken, Gerfried Oltmanns, Jonas Rahlf, Simon Schaller, Stefan Rasch, Tobias Sachtje\\ \bigskip \vspace*{10mm} \today \\ \bigskip \vspace*{10mm} Version: 2.1}
+\begingroup
+ \makeatletter
+ \@titlepagetrue
+ \maketitle
+\endgroup
+  %\newpage
+\end{titlepage}
+
+\pagenumbering{roman}
+
+\newpage
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\input{FaTNet_einleitung}
+\input{FaTNet_laufzeit}
+\input{FaTNet_projektziel}
+\input{FaTNet_mission}
+\input{FaTNet_systementwurf}
+\input{FaTNet_fehlerverhalten}
+\input{FaTNet_testlaeufe}
+\input{FaTNet_arbeitspakete}
+\input{FaTNet_risikomanagement}
+\section{Anhang}
+\label{kap:Anhang}
+\clearpage
+\setlength\pdfpagewidth{600mm}
+\setlength\pdfpageheight{600mm}
+\begin{figure}[p]
+\includegraphics[height=500mm]{Bilder/FaTNet_arbeitsablauf}
+\caption{Geplanter Arbeitsablauf}
+\label{fig:arbeitsablauf}
+\end{figure}
+
+\clearpage
+
+\setlength\pdfpagewidth{210mm}
+\setlength\pdfpageheight{297mm}
+
+\end{document}
